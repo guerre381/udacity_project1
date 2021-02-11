@@ -36,34 +36,31 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#built-with">Built With</a></li>
+    <li><a href="#content">Content</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#prerequisites">Prerequisites</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
+     <li><a href="#acknowledgements">Acknowledgements</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 In this data science project, we intend to answer couple of questions out of Berlin s airbnb data from Kaggle.
 The intention is to get insight for someone interested in the airbnb business. 
-The topics covered are:
+The following questions are answered:
 
- * prefered locations
- * pricing
- * normals and professionals host distinction 
- * communication with guests
+* What neighborhoods do guests prefer?
+* What justifies the price?
+* How professional hosts stand out?
+* Which language to communicate with guests?
 
 
 ## Built With
-There is only one jupyter notebook. Yet, the project is fueld with data to be downloaded form kaggle.
-Data should be dropped in "data" folder, already provided with a map of Berlin stored into a json file.
-
 The code is written in Python 3.8 in a jupyter notebook. 
 It relies mainly on the following libraries:
 
@@ -75,6 +72,19 @@ It relies mainly on the following libraries:
 * [pandas 1.2.1](https://pandas.pydata.org/)
 * [seaborn 0.11.1](https://seaborn.pydata.org/)
 
+<!-- Content -->
+## Content
+There is only one jupyter notebook. Yet, the project is fueld with data to be downloaded form Kaggle.
+Data should be dropped in "data" folder, already provided with a map of Berlin stored into a json file.
+
+ 
+    .
+    ├── airbnb_analysis.ipynb       # jupyter notebook with whole analysis
+    ├── data                        # folder containing data 
+    │   ├── logo.png                # logo for read me
+    │   ├── berlin-wall.json        # 2D map of Berlin used in notebook
+    │   └── ...                     # copy of Kaggle data
+    └── README.md                   # current file
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -111,7 +121,10 @@ If you want to continue the analysis and get more from the data, your contributi
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
+<!-- CONTRIBUTING -->
+## Acknowledgements
+* [Kaggle](https://www.kaggle.com/)
+* [Udacity](https://www.udacity.com/)
 
 <!-- CONTACT -->
 ## Contact
